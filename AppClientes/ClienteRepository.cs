@@ -5,14 +5,14 @@ namespace Repository;
 public class ClienteRepository
 {
     public List<Cliente> clientes = new List<Cliente>();
-    public void CadastratCliente( )
+    public void CadastratCliente()
     {
         Console.Clear();
 
         Console.Write("Nome do Cliente: ");
         var nome = Console.ReadLine();
         Console.Write(Environment.NewLine);
-        
+
         Console.Write("Data de Nascimento: ");
         var dataNascimento = DateOnly.Parse(Console.ReadLine());
         Console.Write(Environment.NewLine);
@@ -20,7 +20,7 @@ public class ClienteRepository
         Console.Write("Desconto: ");
         var desconto = decimal.Parse(Console.ReadLine());
         Console.Write(Environment.NewLine);
-        
+
         var cliente = new Cliente();
         cliente.Id = clientes.Count + 1;
         cliente.Nome = nome;
@@ -45,7 +45,7 @@ public class ClienteRepository
         Console.WriteLine("Data Cadastro..........: " + cliente.CadastradoEm);
         if (cliente.AlteradoEm != null)
         {
-        Console.WriteLine("Data Alteração.........: " + cliente.AlteradoEm);
+            Console.WriteLine("Data Alteração.........: " + cliente.AlteradoEm);
         }
         Console.WriteLine("----------------------------------------");
     }
@@ -70,7 +70,7 @@ public class ClienteRepository
         Console.Write("Nome do Cliente: ");
         var nome = Console.ReadLine();
         Console.Write(Environment.NewLine);
-        
+
         Console.Write("Data de Nascimento: ");
         var dataNascimento = DateOnly.Parse(Console.ReadLine());
         Console.Write(Environment.NewLine);
@@ -78,8 +78,8 @@ public class ClienteRepository
         Console.Write("Desconto: ");
         var desconto = decimal.Parse(Console.ReadLine());
         Console.Write(Environment.NewLine);
-        
-        
+
+
         cliente.Nome = nome;
         cliente.DataNascimento = dataNascimento;
         cliente.Desconto = desconto;
@@ -122,7 +122,7 @@ public class ClienteRepository
         clientes.Remove(cliente);
 
         Console.WriteLine("Cliente excluido com sucesso!! [Pressione qualquer tecla para continuar]");
-        
+
         Console.ReadKey();
     }
-}   
+}
