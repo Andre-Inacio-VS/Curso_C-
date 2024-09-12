@@ -1,0 +1,15 @@
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\bin\Debug\net6.0\AppClientes.exe
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\bin\Debug\net6.0\AppClientes.deps.json
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\bin\Debug\net6.0\AppClientes.runtimeconfig.json
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\bin\Debug\net6.0\AppClientes.dll
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\bin\Debug\net6.0\AppClientes.pdb
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.csproj.AssemblyReference.cache
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.AssemblyInfoInputs.cache
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.AssemblyInfo.cs
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.csproj.CoreCompileInputs.cache
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.dll
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\refint\AppClientes.dll
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.pdb
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\AppClientes.genruntimeconfig.cache
+C:\Users\andre.silva\Desktop\Curso C#\AppClientes\obj\Debug\net6.0\ref\AppClientes.dll
