@@ -1,4 +1,5 @@
-﻿using Repository;
+﻿using System.Globalization;
+using Repository;
 
 namespace AppClientes;
 class Program
@@ -6,6 +7,10 @@ class Program
     static ClienteRepository _clienteRepository = new ClienteRepository();
     static void Main(string[] args)
     {
+        var culture = new CultureInfo("pt-BR");
+        Thread.CurrentThread.CurrentCulture = culture;
+        Thread.CurrentThread.CurrentUICulture = culture;
+
         while (true)
         {
         Menu();
