@@ -6,6 +6,7 @@ public class Cliente
     public string Nome { get; set; }
     public DateOnly DataNascimento { get; set; }
     public DateTime CadastradoEm { get; set; }
+    public DateTime? AlteradoEm { get; set; } = null;
     public decimal Desconto { get; set; }
 }
 
